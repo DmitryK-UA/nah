@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вебстудия</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul class="navigation-list list">
+            <li class="navigation-list-item">
+              <a
+                class="logo link"
+                href="./index.html"
+                aria-label="логотип Веб Студия"
+                lang="en"
+                >Web <span class="logo-word link">Studio</span>
+              </a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link current" href="">Студия</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-list-item">
+              <a class="address-list-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address-list-item">
+              <a class="address-list-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <button class="modal-btn" type="button">Заказать услугу</button>
+        </div>
+      </section>
+
+      <!-- about us-->
+      <section class="about">
+        <!--
+        <h2 hidden>Преемущества вебстудии</h2>
+        <div class="about-top">
+          <ul class="about-list list">
+            <li class="about-list-item">
+              <img
+                class="about-list-img"
+                src="./images/main/antenna-1.jpg"
+                alt="антена"
+                width="70"
+                height="70"
+              />
+            </li>
+            <li class="about-list-item">
+              <img
+                class="about-list-img"
+                src="./images/main/clock-2.jpg"
+                alt="часы"
+                width="70"
+                height="70"
+              />
+            </li>
+            <li class="about-list-item">
+              <img
+                class="about-list-img"
+                src="./images/main/diagram-3.jpg"
+                alt="диаграмма"
+                width="70"
+                height="70"
+              />
+            </li>
+            <li class="about-list-item">
+              <img
+                class="about-list-img"
+                src="./images/main/astronaut-4.jpg"
+                alt="астронафт"
+                width="70"
+                height="70"
+              />
+            </li>
+          </ul>
+        </div>
+        -->
+
+        <div class="container">
+          <ul class="about-list list">
+            <li class="about-list-item">
+              <h3 class="about-list-title">Внимание к деталям</h3>
+              <p class="about-list-text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="about-list-item">
+              <h3 class="about-list-title">Пунктуальность</h3>
+              <p class="about-list-text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="about-list-item">
+              <h3 class="about-list-title">Планирование</h3>
+              <p class="about-list-text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="about-list-item">
+              <h3 class="about-list-title">Современные технологии</h3>
+              <p class="about-list-text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- products -->
+      <section class="products section">
+        <div class="container">
+          <h2 class="products-title">Чем мы занимаемся</h2>
+          <ul class="producsts-list list">
+            <li class="products-list-item">
+              <img
+                class="products-list-img"
+                src="./images/about-us/about-us-1.jpg"
+                alt="Ноутбук"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="products-list-item">
+              <img
+                class="products-list-img"
+                src="./images/about-us/about-us-2.jpg"
+                alt="смартфон"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li class="products-list-item">
+              <img
+                class="products-list-img"
+                src="./images/about-us/about-us-3.jpg"
+                alt="персональный компьютер"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- our team-->
+      <section class="team section">
+        <div class="container">
+          <h2 class="team-title">Наша команда</h2>
+          <ul class="team-list list">
+            <li class="team-list-member">
+              <img
+                class="team-list-img"
+                src="./images/team/team-1.jpg"
+                alt="Николай улыбается"
+                width="270"
+                height="260"
+              />
+              <div class="team-list-content">
+                <h3 class="team-list-name">Николай Кучеренко</h3>
+                <p class="team-list-prof" lang="en">Product Designer</p>
+                <ul class="social-list list">
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list-member">
+              <img
+                class="team-list-img"
+                src="./images/team/team-2.jpg"
+                alt="Ольга улыбается"
+                width="270"
+                height="260"
+              />
+              <div class="team-list-content">
+                <h3 class="team-list-name">Ольга Иванова</h3>
+                <p class="team-list-prof" lang="en">Frontend Developer</p>
+                <ul class="social-list list">
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list-member">
+              <img
+                class="team-list-img"
+                src="./images/team/team-3.jpg"
+                alt="Андрей задумчиво смотрит в сторону"
+                width="270"
+                height="260"
+              />
+              <div class="team-list-content">
+                <h3 class="team-list-name">Андрей Шевченко</h3>
+                <p class="team-list-prof" lang="en">Marketing</p>
+                <ul class="social-list list">
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-list-member">
+              <img
+                class="team-list-img"
+                src="./images/team/team-4.jpg"
+                alt="Иван смеется"
+                width="270"
+                height="260"
+              />
+              <div class="team-list-content">
+                <h3 class="team-list-name">Иван Николаев</h3>
+                <p class="team-list-prof" lang="en">UI Designer</p>
+                <ul class="social-list list">
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                  <li class="social-list-item">
+                    <a class="social-list-link" href=""></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Clients 
+      <section class="clients section">
+        <div class="container">
+          <h2 class="clients-title">Постоянные клиенты</h2>
+          <ul class="clients-list list">
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-1.jpg"
+                alt="логотип компании"
+                width="45"
+                height="50"
+              />
+            </li>
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-2.jpg"
+                alt="логотип компании"
+                width="40"
+                height="52"
+              />
+            </li>
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-3.jpg"
+                alt="логотип компании"
+                width="41"
+                height="43"
+              />
+            </li>
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-4.jpg"
+                alt="логотип компании"
+                width="80"
+                height="43"
+              />
+            </li>
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-5.jpg"
+                alt="логотип компании"
+                width="59"
+                height="47"
+              />
+            </li>
+            <li class="clients-list-item">
+              <img
+                class="clients-list-img"
+                src="./images/clients/logo-6.jpg"
+                alt="логотип компании"
+                width="89"
+                height="46"
+              />
+            </li>
+          </ul>
+        </div>
+      </section> -->
+    </main>
+
+    <footer class="footer">
+      <!-- Contacts -->
+      <section class="footer-address">
+        <div class="container">
+          <a
+            class="logo link"
+            href="./index.html"
+            aria-label="логотип Веб Студия"
+            lang="en"
+            >Web <span class="logo-word link">Studio</span></a
+          >
+          <address class="address">
+            <ul class="footer-address-list list">
+              <li class="footer-address-item">
+                <a
+                  class="footer-address-map link"
+                  href="https://goo.gl/maps/z1eApNmuFo8rXxbb8"
+                  target="blank"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-address-item">
+                <a
+                  class="footer-address-link link"
+                  href="mailto:info@devstudio.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-address-item">
+                <a class="footer-address-link link" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </section>
+
+      <!-- Social media 
+      <section class="social">
+        <h2 class="social-title">присоединяйтесь</h2>
+        <ul class="social-list list">
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link link" href=""></a>
+          </li>
+        </ul>
+      </section> -->
+
+      <!-- Mail
+      <section class="mail">
+        <h2 class="mail-title">Подпишитесь на рассылку</h2>
+        <button class="modal-btn" type="button">Подписаться</button>
+      </section>-->
+    </footer>
+  </body>
+</html>
